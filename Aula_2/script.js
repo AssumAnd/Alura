@@ -8,10 +8,16 @@
 //oInt de parseInt significa INTEIRO. Em caso de 865,99 o parseInt busca somente o 865
 
 
+
+
+
+//var numeroSecreto = parseInt(Math.random() * 1001)
+
 function advinha() {
 
+    var contador = 0
+
     var numeroSecreto = parseInt(Math.random() * 1001)
-    var numeroSecreto = 1002
     while (chute != numeroSecreto) {
         contador == ++contador
         if (contador > 10) {
