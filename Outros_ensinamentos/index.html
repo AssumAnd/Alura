@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: "helvetica neue", helvetica, sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgba(0, 0, 200, 0.6);
+            background: rgba(0, 0, 200, 0.3);
+            color: rgba(0, 0, 200, 0.6);
+            box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Jogador 1: Anderson</p>
+
+</body>
+<script>
+
+    const novoNome = document.querySelector("p");
+
+    novoNome.addEventListener("click", atualizarnome);
+
+    function atualizarnome() {
+        var nome = prompt("Insira um novo nome");
+        novoNome.textContent = "Jogador 1: " + nome
+    }
+
+    //Erro na sintaxe em tentar exibir o "novoNome" ao invés da varíavel "nome". Declarada para armazenar o prompt
+
+
+</script>
+
+</html>
