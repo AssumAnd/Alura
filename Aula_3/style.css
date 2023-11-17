@@ -35,6 +35,8 @@ body {
   
   body > img {
     margin: 0 10px;
+    width: 300px;
+    height: 400px;
   }
   
 
